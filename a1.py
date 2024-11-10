@@ -5,8 +5,8 @@ import wsn_simpy.wsnsimpy as wsp
 TX_RANGE = 150  # Transmission range for all devices
 NUM_DEVICES = 10
 DISCOVERY_DURATION = 5  # Discovery period in seconds
-HELLO_TIMEOUT = 0.1  # Max random delay for HELLO response in seconds
-SLOT_DURATION = 0.1  # Slot duration in seconds (100 ms)
+HELLO_TIMEOUT = 0.01  # Max random delay for HELLO response in seconds
+SLOT_DURATION = 0.1  # Slot duration in seconds (10 ms)
 SCHED_START_DELAY = 0.5  # Delay before communication can start
 SIM_DURATION = 50  # Total simulation time in seconds (changed from 10 to 50)
 
